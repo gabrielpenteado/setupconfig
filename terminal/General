@@ -1,0 +1,18 @@
+# General
+
+Currently I'm using the combo Fish + Starship in my terminal.
+
+Fish Shell: https://fishshell.com/
+Starship: https://starship.rs/
+
+---
+
+I'm also using Warp as my terminal emulator.
+
+Warp: https://www.warp.dev/
+
+---
+
+For the theme, I chose Rosé Pine Moon variant: 
+
+Theme: https://github.com/austintraver/warp-theme/blob/main/base16_rose_pine_moon.yaml
