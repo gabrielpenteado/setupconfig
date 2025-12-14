@@ -1,0 +1,118 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "default",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "all",
+  "editor.rulers": [80, 120],
+  "editor.linkedEditing": true,
+  "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 26,
+  // TERMINAL
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // LIVE SERVER SETTINGS
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  // GIT LENS
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "editor.detectIndentation": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "terminal.integrated.cursorStyle": "line",
+  "debug.javascript.codelens.npmScripts": "never",
+  // MARKDOWN
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "markdown": "html"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "terminal.integrated.env.windows": {},
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server": true,
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "One Dark italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "One Dark italic reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "console-ninja.showWhatsNew": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "eslint.codeActionsOnSave.rules": null,
+  "css.lint.unknownAtRules": "ignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "console-ninja.featureSet": "Community",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "Devdb.colorTheme": "dark",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Dracula Theme Soft",
+  "http.proxyAuthorization": null,
+  "gitlens.rebaseEditor.ordering": "asc",
+  "git.autofetch": "all",
+  "files.autoSave": "onFocusChange",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
+}
